@@ -1,0 +1,42 @@
+/* Default screen */
+
+
+
+/* Small screen */
+@media (min-width: 576px) {
+    .d-flex-sm {
+        display: flex;
+    }
+
+    .d-none-sm {
+        display: none;
+    }
+
+    .flex-col-sm {
+        flex-direction: column;
+    }
+
+    .flex-row-sm {
+        flex-direction: row;
+    }
+}
+
+
+/* Large screen */
+@media (min-width: 992px) {
+    .d-flex-lg {
+        display: flex;
+    }
+
+    .d-none-lg {
+        display: none;
+    }
+
+    .flex-col-lg {
+        flex-direction: column;
+    }
+
+    .flex-row-lg {
+        flex-direction: row;
+    }
+}

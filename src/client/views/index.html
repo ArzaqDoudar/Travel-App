@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Planner</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700|Ranga:400,700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="h-100 bg-bage">
+  <div class="d-flex justify-content-center w-100 py-5">
+    <div class="container d-flex justify-content-center align-items-center">
+      <h1>Travel Planner</h1>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center w-100">
+    <div class="container d-flex justify-content-center align-items-center gap-4 flex-col-sm flex-row-lg">
+
+      <div class="w-50">
+        <div class="d-flex flex-column justify-content-center">
+          <div class="d-flex">
+            <label for="place" class="font-bold font-6 w-50">Enter the Place :
+            </label>
+            <input type="text" id="place" class="flex-grow-1" />
+          </div>
+          <div class="d-flex"><label for="date" class="font-bold font-6  w-50">Enter the Date :
+            </label>
+            <input type="datetime-local" id="date" class="flex-grow-1" />
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <form method="get" action="mytrip.html">
+            <button id="searchBtn" class="px-4 py-1 font-bold font-3 w-100 my-5 bg-primary">Search</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="w-50">
+        <img class="w-100 m-" src="./media/image.svg" alt />
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="app">
+    <div class="holder headline">
+      Weather Journal App
+    </div>
+    <div class="holder zip">
+      <label for="zip">Enter Zipcode here</label>
+      <input type="text" id="zip" placeholder="enter zip code here">
+    </div>
+    <div class="holder feel">
+      <label for="feelings">How are you feeling today?</label>
+      <textarea class="myInput" id="feelings" placeholder="Enter your feelings here" rows="9" cols="50"></textarea>
+      <button id="generate" type="submit"> Generate </button>
+    </div>
+    <div class="holder entry">
+      <div class="title">Most Recent Entry</div>
+      <div id="entryHolder">
+        <div>Date : <span id="date"></span></div>
+        <div>Temperature: <span id="temp"></span></div>
+        <div>Content: <span id="content"></span></div>
+      </div>
+    </div>
+  </div> -->
+</body>
+
+</html>

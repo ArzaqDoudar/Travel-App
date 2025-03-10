@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Trip</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center w-100 py-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <h1>Travel Planner</h1>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center w-100 bg-primary">
+        <div class="container d-flex justify-content-center align-items-center gap-4">
+            <div class="w-50">
+                <img class="w-100 m-5" id="place_img" src="./media/image.jpg" alt="">
+            </div>
+            <div class="w-50">
+                <h2 class="font-bold font-6">My Trip to : <span id="trip_to"> Paris,France</span> </h2>
+                <h2 class="font-bold font-6">Departing: <span id="departing">02/12/2020</span> </h2>
+                <div class="d-flex justify-content-between gap-1 my-3">
+                    <button id="saveBtn" class="px-4 py-1 font-bold font-3 w-50">Save</button>
+                    <button class="px-4 py-1 font-bold font-3 bg-red color-white w-50">Remove trip</button>
+                </div>
+                <p class=" "><span id="trip_to"> Paris,France</span> is <span id="count_down">220</span> days away </p>
+                <p>Typical weather for then is:</p>
+                <p id="weather">High - <span id="high_temp"> 00</span> , Low - <span id="low_temp"> 00</span> </p>
+                <p id="weather_description">Mostly cloudy throughout the day.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+/* layout start */
+
+
+/* layout end */
+
+
+/* Default screen */
+.container {
+    width: 85%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: start;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.gap-1 {
+    gap: 0.5rem
+}
+
+.gap-2 {
+    gap: 1rem
+}
+
+.gap-3 {
+    gap: 2rem
+}
+
+.gap-4 {
+    gap: 3rem
+}
+
+.gap-5 {
+    gap: 4rem
+}
+
+.gap-6 {
+    gap: 5rem
+}
+
+
+
+/* Small screen */
+@media (min-width: 576px) {
+
+    .w-sm-100 {
+        width: 100%;
+    }
+
+    .d-sm-none {
+        display: none;
+    }
+
+    .d-sm-inline {
+        display: inline;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-flex {
+        display: flex;
+    }
+
+    .flex-sm-wrap {
+        flex-wrap: wrap;
+    }
+
+    .flex-sm-row {
+        flex-direction: row;
+    }
+
+    .flex-sm-column {
+        flex-direction: column;
+    }
+
+    .flex-sm-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex-sm-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+
+    .justify-content-sm-between {
+        justify-content: space-between;
+    }
+
+    .justify-content-sm-around {
+        justify-content: space-around;
+    }
+
+    .justify-content-sm-evenly {
+        justify-content: space-evenly;
+    }
+
+    .align-items-sm-center {
+        align-items: center;
+    }
+
+    .align-items-sm-start {
+        align-items: start;
+    }
+
+    .align-items-sm-end {
+        align-items: end;
+    }
+
+}
+
+
+/* Medium screen */
+@media (min-width: 768px) {
+    .d-md-none {
+        display: none;
+    }
+
+    .d-md-inline {
+        display: inline;
+    }
+
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+
+    .flex-md-wrap {
+        flex-wrap: wrap;
+    }
+
+    .flex-md-row {
+        flex-direction: row;
+    }
+
+    .flex-md-column {
+        flex-direction: column;
+    }
+
+    .flex-md-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex-md-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .justify-content-md-center {
+        justify-content: center;
+    }
+
+    .justify-content-md-between {
+        justify-content: space-between;
+    }
+
+    .justify-content-md-around {
+        justify-content: space-around;
+    }
+
+    .justify-content-md-evenly {
+        justify-content: space-evenly;
+    }
+
+    .align-items-md-center {
+        align-items: center;
+    }
+
+    .align-items-md-start {
+        align-items: start;
+    }
+
+    .align-items-md-end {
+        align-items: end;
+    }
+
+}
+
+
+/* Large screen */
+@media (min-width: 992px) {
+    .d-lg-none {
+        display: none;
+    }
+
+    .d-lg-inline {
+        display: inline;
+    }
+
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-flex {
+        display: flex;
+    }
+
+    .flex-lg-wrap {
+        flex-wrap: wrap;
+    }
+
+    .flex-lg-row {
+        flex-direction: row;
+    }
+
+    .flex-lg-column {
+        flex-direction: column;
+    }
+
+    .flex-lg-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .flex-lg-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .justify-content-lg-center {
+        justify-content: center;
+    }
+
+    .justify-content-lg-between {
+        justify-content: space-between;
+    }
+
+    .justify-content-lg-around {
+        justify-content: space-around;
+    }
+
+    .justify-content-lg-evenly {
+        justify-content: space-evenly;
+    }
+
+    .align-items-lg-center {
+        align-items: center;
+    }
+
+    .align-items-lg-start {
+        align-items: start;
+    }
+
+    .align-items-lg-end {
+        align-items: end;
+    }
+
+}
